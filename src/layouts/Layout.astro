@@ -1,0 +1,78 @@
+---
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+import Navbarbottom from "../components/Navbar.svelte";
+
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KERALA Startup Mission | Incubation Programs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <!-- swipper css link -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <!-- lightcase css links -->
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <!-- odometer css link -->
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- aos.css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- main style css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+	<slot />
+
+
+<!-- jquery -->
+<script src="assets/js/jquery-3.6.0.min.js" is:inline></script>
+<!-- bootstrap js -->
+<script src="assets/js/bootstrap.min.js" is:inline></script>
+<!-- swipper js -->
+<script src="assets/js/swiper.min.js" is:inline></script>
+<!-- lightcase js-->
+<script src="assets/js/lightcase.js" is:inline></script>
+<!-- odometer js -->
+<script src="assets/js/odometer.min.js" is:inline></script>
+<!-- viewport js -->
+<script src="assets/js/viewport.jquery.js" is:inline></script>
+<!-- aos js file -->
+<script src="assets/js/aos.js" is:inline></script>
+<!-- nice select js -->
+<script src="assets/js/jquery.nice-select.js" is:inline></script>
+<!-- isotope js -->
+<script src="assets/js/isotope.pkgd.min.js" is:inline></script>
+<!-- tweenMax js -->
+<script src="assets/js/TweenMax.min.js" is:inline></script>
+<!-- main -->
+<script src="assets/js/main.js" is:inline></script>
+
+
+</body>
+</html>
