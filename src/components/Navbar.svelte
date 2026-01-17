@@ -125,25 +125,7 @@
                       <a href="/" class="page-scroll cursor-pointer font-bold uppercase">Home</a>
                   </li>
 
-                  <li on:click="{()=> menu_open = !menu_open }" 
-                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="https://mentors.startupmission.in/" target="_blank" class="page-scroll cursor-pointer font-bold uppercase">Mentors</a>
-                  </li>
-
-                  <li on:click="{()=> menu_open = !menu_open }" 
-                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="https://startupmission.kerala.gov.in/schemes/innovation-grant" target="_blank" class="page-scroll cursor-pointer font-bold uppercase">Innovation Grant</a>
-                  </li>
-
-                  <li on:click="{()=> menu_open = !menu_open }" 
-                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="https://startupmission.kerala.gov.in/schemes/seed-fund" target="_blank" class="page-scroll cursor-pointer font-bold uppercase">Seed Fund</a>
-                  </li>
-
-                  <li on:click="{()=> menu_open = !menu_open }" 
-                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
-                      <a href="https://startupmission.kerala.gov.in/pages/servicepartners" target="_blank" class="page-scroll cursor-pointer font-bold uppercase">Service Partners</a>
-                  </li>
+                 
 
   
                     
