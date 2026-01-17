@@ -125,6 +125,16 @@
                       <a href="/" class="page-scroll cursor-pointer font-bold uppercase">Home</a>
                   </li>
 
+                  <li on:click="{()=> menu_open = !menu_open }" 
+                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
+                      <a href="/#Programofferings" class="page-scroll cursor-pointer font-bold uppercase">Program offerings</a>
+                  </li>
+
+                   <li on:click="{()=> menu_open = !menu_open }" 
+                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
+                      <a href="/#ProgramStructure" class="page-scroll cursor-pointer font-bold uppercase">Program Structure</a>
+                  </li>
+
                  
 
   
