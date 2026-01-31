@@ -81,7 +81,9 @@
             <a href="/"  class="md:flex cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Home</a>
             <a href="/#Programofferings" class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Program offerings</a>
             <a href="/#ProgramStructure" class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Program Structure</a>
+            <a href="/#Mentors" class="md:flex page-scroll cursor-pointer hidden px-4 py-3  md:py-1 uppercase   text-sm hover:text-green-900">Mentors</a>
            
+            		
         </div>
       
         <div class="flex  items-center justify-center  bg-white my-auto spl_cursor md:hidden flex ">   
@@ -133,6 +135,10 @@
                    <li on:click="{()=> menu_open = !menu_open }" 
                       class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
                       <a href="/#ProgramStructure" class="page-scroll cursor-pointer font-bold uppercase">Program Structure</a>
+                  </li>
+                   <li on:click="{()=> menu_open = !menu_open }" 
+                      class="px-5 py-2 transform hover:bg-gray-400 transition duration-500 hover:scale-100 md:hidden flex">
+                      <a href="/#Mentors" class="page-scroll cursor-pointer font-bold uppercase">Mentors</a>
                   </li>
 
                  
